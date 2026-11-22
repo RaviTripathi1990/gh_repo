@@ -104,3 +104,6 @@ function NEONCostModel(model, productConfig, region, certifiedCountry, exClassif
 
 
 function neonCost(inputJSON){let result=0; let parseObj=JSON.parse(inputJSON);result=parseObj.unitCost; return result}
+
+
+// Testing the function so that everything is working fine.
